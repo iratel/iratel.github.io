@@ -2,6 +2,328 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xujin.org/re/01/</loc>
+    
+    <lastmod>2019-01-13T05:53:02.653Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc2/</loc>
+    
+    <lastmod>2019-01-13T05:49:46.955Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/venus/venus-orika/</loc>
+    
+    <lastmod>2019-01-13T05:40:11.187Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/mybatis/mybatis-01/</loc>
+    
+    <lastmod>2019-01-13T05:39:37.968Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sb/sb-01/</loc>
+    
+    <lastmod>2019-01-13T05:38:53.480Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sb/sb-aop/</loc>
+    
+    <lastmod>2019-01-13T05:38:30.183Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/saas/saas/</loc>
+    
+    <lastmod>2019-01-13T05:37:13.960Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/bf/bf-th-sing/</loc>
+    
+    <lastmod>2019-01-13T05:28:15.225Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/bf/bf01/</loc>
+    
+    <lastmod>2019-01-13T05:27:48.118Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/bf/bf-thread-singal/</loc>
+    
+    <lastmod>2019-01-13T05:27:11.224Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/bf/bf-multithread/</loc>
+    
+    <lastmod>2019-01-13T05:26:46.838Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/bf/bf-synchronized/</loc>
+    
+    <lastmod>2019-01-13T05:26:20.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/bf/bf-volatile/</loc>
+    
+    <lastmod>2019-01-13T05:25:56.893Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/janus/gw-solution/</loc>
+    
+    <lastmod>2019-01-13T05:25:35.149Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/janus/janus-01/</loc>
+    
+    <lastmod>2019-01-13T05:25:05.061Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/java/jdk-install/</loc>
+    
+    <lastmod>2019-01-13T05:24:31.229Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/java/hm02/</loc>
+    
+    <lastmod>2019-01-13T05:23:46.988Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/java/hm01/</loc>
+    
+    <lastmod>2019-01-13T05:23:20.028Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/ex-mt-anto/</loc>
+    
+    <lastmod>2019-01-13T05:22:51.412Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/java-singal-linux/</loc>
+    
+    <lastmod>2019-01-13T05:22:22.628Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/get-hfs/</loc>
+    
+    <lastmod>2019-01-13T05:21:50.300Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/sc-codegen/</loc>
+    
+    <lastmod>2019-01-13T05:21:29.532Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/jdk8-parameters/</loc>
+    
+    <lastmod>2019-01-13T05:21:03.596Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/eclipse-for-mac/</loc>
+    
+    <lastmod>2019-01-13T05:20:25.692Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/lombok/</loc>
+    
+    <lastmod>2019-01-13T05:19:55.635Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/es-client/</loc>
+    
+    <lastmod>2019-01-13T05:19:31.540Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/spring-initializr/</loc>
+    
+    <lastmod>2019-01-13T05:19:01.346Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/cs-utc/</loc>
+    
+    <lastmod>2019-01-13T05:18:27.682Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/mysql-batch-update/</loc>
+    
+    <lastmod>2019-01-13T05:17:47.596Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/ex/bqsm/</loc>
+    
+    <lastmod>2019-01-13T05:17:07.943Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sq/sc-zyzj/</loc>
+    
+    <lastmod>2019-01-13T05:09:47.660Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sq/sc-gfb/</loc>
+    
+    <lastmod>2019-01-13T05:09:04.581Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sq/sc-http2/</loc>
+    
+    <lastmod>2019-01-13T05:08:29.131Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-zuul-s2/</loc>
+    
+    <lastmod>2019-01-13T05:03:44.866Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-zuul-s3/</loc>
+    
+    <lastmod>2019-01-13T05:03:12.947Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-zuul-s1/</loc>
+    
+    <lastmod>2019-01-13T05:02:46.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-zuul-excpetion/</loc>
+    
+    <lastmod>2019-01-13T05:01:58.908Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-ribbon-demoted/</loc>
+    
+    <lastmod>2019-01-13T03:39:48.998Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-sleuth/</loc>
+    
+    <lastmod>2019-01-13T03:36:14.996Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-introduce/</loc>
+    
+    <lastmod>2019-01-13T03:27:26.811Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-gateway/</loc>
+    
+    <lastmod>2019-01-13T03:26:25.716Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-netflix-eureka/</loc>
+    
+    <lastmod>2019-01-13T03:24:13.383Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-gw/</loc>
+    
+    <lastmod>2019-01-13T03:22:31.047Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-fegin01/</loc>
+    
+    <lastmod>2019-01-13T03:17:51.194Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-fx1/</loc>
+    
+    <lastmod>2019-01-13T03:15:35.368Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://xujin.org/sc/sc-feign-4xx/</loc>
+    
+    <lastmod>2019-01-13T03:14:27.158Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xujin.org/sc/sc-eureka-renew/</loc>
     
     <lastmod>2019-01-12T04:36:27.970Z</lastmod>
@@ -26,13 +348,6 @@
     <loc>http://xujin.org/sc/sc-eureka-cancle/</loc>
     
     <lastmod>2019-01-12T04:25:00.258Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xujin.org/sc/sc2/</loc>
-    
-    <lastmod>2019-01-12T04:21:40.872Z</lastmod>
     
   </url>
   
