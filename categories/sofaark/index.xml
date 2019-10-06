@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOFAArk on SOFAStack</title>
+    <link>/categories/sofaark/</link>
+    <description>Recent content in SOFAArk on SOFAStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 13 Jun 2019 15:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/sofaark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>溢米教育推荐平台的效率与稳定性建设 | SOFAStack 用户说</title>
+      <link>/blog/sofastack-user-yimi/</link>
+      <pubDate>Thu, 13 Jun 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofastack-user-yimi/</guid>
+      <description>本文来自 SOFAArk 用户—溢米教育投稿，分享其内部使用 SOFAArk 组件后极大提高内部推荐系统的开发效率和稳定性的案例。感谢溢米教育对 SOFAStack 的支持，同时也欢迎更多用户</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服 SOFAArk 0.6.0 新特性介绍 | 模块化开发容器</title>
+      <link>/blog/sofa-ark-0.6.0/</link>
+      <pubDate>Wed, 20 Mar 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-ark-0.6.0/</guid>
+      <description>SOFAStack Scalable Open Financial Architecture Stack 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 蚂蚁金服在 SOFAStack 体</description>
+    </item>
+    
+  </channel>
+</rss>

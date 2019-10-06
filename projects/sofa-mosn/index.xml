@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOFAMOSN on SOFAStack</title>
+    <link>/projects/sofa-mosn/</link>
+    <description>Recent content in SOFAMOSN on SOFAStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="/projects/sofa-mosn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MOSN 介绍</title>
+      <link>/projects/sofa-mosn/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sofa-mosn/overview/</guid>
+      <description>MOSN(Modular Observable Smart Network), 是一款采用 Go 开发的 Service Mesh 数据平面代理， 功能和定位类似 Envoy，旨在提供分布式，模块化，可观察，智能化的代理能力。 MOSN 支持 Envoy 和 Istio 的 API</description>
+    </item>
+    
+    <item>
+      <title>SOFAMosn 0.1.0 性能报告</title>
+      <link>/projects/sofa-mosn/reference-performance-report010/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sofa-mosn/reference-performance-report010/</guid>
+      <description>以下的的性能报告为 SOFAMosn 0.1.0 在做 Bolt 与 HTTP1.x 协议的纯 TCP 转发上与 envoy 的一些性能对比数据，主要表现 在 QPS、RTT、失败率/成功率等。 这里需要强调的是，为了提</description>
+    </item>
+    
+    <item>
+      <title>SOFAMosn 0.2.1 性能报告</title>
+      <link>/projects/sofa-mosn/reference-performance-report021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sofa-mosn/reference-performance-report021/</guid>
+      <description>以下性能报告的基准版本为 SOFAMosn 0.2.1。在 0.2.1 版本中，我们进行了如下一些优化手段： - 添加内存复用框架，涵盖 io/protocol/stream/proxy 层级，减少对象分配、内存使用和GC压</description>
+    </item>
+    
+    <item>
+      <title>使用 SOFAMosn 搭建 Service Mesh 平台</title>
+      <link>/projects/sofa-mosn/quick-start-run-with-sofamesh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sofa-mosn/quick-start-run-with-sofamesh/</guid>
+      <description>本文将介绍如何使用 SOFAMosn 在 SOFAMesh 框架下搭建 Service Mesh 的开发环境，并验证 SOFAMosn 的一些基础路由能力、负载均衡能力等。本文介绍的内容将包括 : SOFAMosn 与 SOFAMesh 的关系 准备工作 源码</description>
+    </item>
+    
+    <item>
+      <title>工程示例</title>
+      <link>/projects/sofa-mosn/quick-start-run-samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sofa-mosn/quick-start-run-samples/</guid>
+      <description>配置 HTTP 协议 Mesher 请参考 MOSN 转发 HTTP 的样例工程 http-sample 配置 SOFARPC 协议 Mesher 请参考 MOSN 转发 SOFARPC 的样例工程 sofarpc-sample 配置 TCP 协议 Mesher 请参考 MOSN 作为 TCP Proxy 的样例工程 tcpproxy-sample</description>
+    </item>
+    
+    <item>
+      <title>快速开始</title>
+      <link>/projects/sofa-mosn/quick-start-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sofa-mosn/quick-start-setup/</guid>
+      <description>本文用于帮助初次接触 MOSN 项目的开发人员，快速搭建开发环境，完成构建，测试，打包和事例代码的运行。 注：MOSN 基于 Go 1.9.2 研发，使用 dep 进行依赖管理 准</description>
+    </item>
+    
+  </channel>
+</rss>

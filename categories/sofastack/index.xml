@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOFAStack</title>
+    <link>/categories/sofastack/</link>
+    <description>Recent content on SOFAStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 11 Jul 2019 15:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/sofastack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Serverless 市场观察和落地挑战</title>
+      <link>/blog/serverless-market-challenge/</link>
+      <pubDate>Thu, 11 Jul 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/serverless-market-challenge/</guid>
+      <description>&amp;gt; KubeCon China 2019 大会上， Serverless 应用服务正式亮相，在 SOFAStack 工作坊吸引了百余名参与者同场体验。 市场观察 当我们回顾云计算的发展历程，会看到基础架构经历了从物理机到</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服 Service Mesh 落地实践与挑战 | GIAC 实录</title>
+      <link>/blog/service-mesh-giac-2019/</link>
+      <pubDate>Mon, 24 Jun 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/service-mesh-giac-2019/</guid>
+      <description>本文整理自 GIAC（GLOBAL INTERNET ARCHITECTURE CONFERENCE）全球互联网架构大会，蚂蚁金服平台数据技术事业群技术专家石建伟（花名：卓与）的分享。</description>
+    </item>
+    
+    <item>
+      <title>对话鲁直：蚂蚁金服中间件的开源头羊 | 穿山甲专访</title>
+      <link>/blog/antfin-middleware-open-source-key-figure-luzhi/</link>
+      <pubDate>Tue, 30 Apr 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/antfin-middleware-open-source-key-figure-luzhi/</guid>
+      <description>本文转自 Linux 中国 谈话中，鲁直反问的“你为什么不开源？”这句话让我印象深刻。&amp;ndash; 老王 二月初春，在西子湖畔的细雨中，我拜访了蚂蚁金服中间</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服总监杨冰：金融科技公司为什么要拥抱开源？ | 穿山甲专访</title>
+      <link>/blog/financial-technology-meet-open-source/</link>
+      <pubDate>Mon, 11 Mar 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/financial-technology-meet-open-source/</guid>
+      <description>我们选择将 SOFA 中间件框架逐步开源出来，在贡献给社区的同时，也期待社区、合作伙伴甚至客户，都能够一起参与共建，形成行业标准和最佳实践。&amp;ndas</description>
+    </item>
+    
+    <item>
+      <title>企业实施分布式架构的挑战以及应对建议 | 上海 ATEC 科技大会实录</title>
+      <link>/blog/distributed-arch-in-the-enterprise/</link>
+      <pubDate>Tue, 15 Jan 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/distributed-arch-in-the-enterprise/</guid>
+      <description>许文奇 蚂蚁金服高级技术专家，SOFAStack 商业化产品技术 Leader，多年分布式架构及中间件研发经验，负责过蚂蚁金服分布式架构在多家金融</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服启动分布式中间件开源计划，用于快速构建金融级云原生架构</title>
+      <link>/blog/announcing-sofastack-open-source/</link>
+      <pubDate>Thu, 19 Apr 2018 14:22:19 +0000</pubDate>
+      
+      <guid>/blog/announcing-sofastack-open-source/</guid>
+      <description>我们很高兴地宣布，今天蚂蚁金服启动分布式中间件（Scalable Open Financial Architecture，以下简称 SOFA 中间件）的开源计划！ SOFA 是蚂蚁金服自主</description>
+    </item>
+    
+  </channel>
+</rss>

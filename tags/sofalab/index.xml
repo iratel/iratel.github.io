@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOFALab on SOFAStack</title>
+    <link>/tags/sofalab/</link>
+    <description>Recent content in SOFALab on SOFAStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Sep 2019 18:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/sofalab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SOFAJRaft Snapshot 原理剖析 | SOFAJRaft 实现原理</title>
+      <link>/blog/sofa-jraft-snapshot-principle-analysis/</link>
+      <pubDate>Mon, 23 Sep 2019 18:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-jraft-snapshot-principle-analysis/</guid>
+      <description>SOFAStack（Scalable Open Financial Architecture Stack）是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金</description>
+    </item>
+    
+    <item>
+      <title>&lt;SOFA:RegistryLab/&gt;</title>
+      <link>/activities/sofa-registry-lab/</link>
+      <pubDate>Tue, 03 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/activities/sofa-registry-lab/</guid>
+      <description>| SOFALab &amp;lt;SOFA:Lab/&amp;gt; 源码研究实验室，由 SOFA 团队和源码爱好者们出品，欢迎你的加入~ &amp;lt;SOFA:RegistryLab/&amp;gt;是《剖析 | SOFARegistry 实现原理》系列</description>
+    </item>
+    
+    <item>
+      <title>SOFAJRaft 日志复制 - pipeline 实现剖析 | SOFAJRaft 实现原理</title>
+      <link>/blog/sofa-jraft-pipeline-principle/</link>
+      <pubDate>Tue, 06 Aug 2019 16:30:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-jraft-pipeline-principle/</guid>
+      <description>SOFAStack（Scalable Open Financial Architecture Stack） 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金</description>
+    </item>
+    
+    <item>
+      <title>SOFAJRaft-RheaKV MULTI-RAFT-GROUP 实现分析 | SOFAJRaft 实现原理</title>
+      <link>/blog/sofa-jraft-rheakv-multi-raft-group/</link>
+      <pubDate>Wed, 24 Jul 2019 16:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-jraft-rheakv-multi-raft-group/</guid>
+      <description>SOFAStack Scalable Open Financial Architecture Stack 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFAJRaft 是一个基于 Raft</description>
+    </item>
+    
+    <item>
+      <title>SOFAJRaft 选举机制剖析 | SOFAJRaft 实现原理</title>
+      <link>/blog/sofa-jraft-election-mechanism/</link>
+      <pubDate>Wed, 10 Jul 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-jraft-election-mechanism/</guid>
+      <description>SOFAStack Scalable Open Financial Architecture Stack 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 本文为《剖析 |</description>
+    </item>
+    
+    <item>
+      <title>SOFAJRaft 线性一致读实现剖析 | SOFAJRaft 实现原理</title>
+      <link>/blog/sofa-jraft-linear-consistent-read-implementation/</link>
+      <pubDate>Tue, 02 Jul 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-jraft-linear-consistent-read-implementation/</guid>
+      <description>SOFAStack Scalable Open Financial Architecture Stack 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 本文为《剖析 |</description>
+    </item>
+    
+    <item>
+      <title>SOFAJRaft 实现原理 - SOFAJRaft-RheaKV 是如何使用 Raft 的</title>
+      <link>/blog/sofa-jraft-rheakv/</link>
+      <pubDate>Fri, 24 May 2019 15:00:00 +0800</pubDate>
+      
+      <guid>/blog/sofa-jraft-rheakv/</guid>
+      <description>SOFAStack Scalable Open Financial Architecture Stack 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 本文为《剖析 |</description>
+    </item>
+    
+    <item>
+      <title>SOFAJRaft 实现原理 - 生产级 Raft 算法库存储模块剖析</title>
+      <link>/blog/sofa-jraft-algorithm-storage-module-deep-dive/</link>
+      <pubDate>Sun, 05 May 2019 14:30:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-jraft-algorithm-storage-module-deep-dive/</guid>
+      <description>SOFAStack Scalable Open Financial Architecture Stack 是蚂蚁金服自主研发的金融级分布式架构，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFAJRaft 是一个基于 Raft</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源分布式链路跟踪组件 SOFATracer 埋点机制剖析</title>
+      <link>/blog/sofa-tracer-event-tracing-deep-dive/</link>
+      <pubDate>Wed, 27 Mar 2019 14:30:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-tracer-event-tracing-deep-dive/</guid>
+      <description>SOFA Scalable Open Financial Architecture 是蚂蚁金服自主研发的金融级分布式中间件，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFATracer 是一个用于分</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服分布式链路跟踪组件 SOFATracer 总览|剖析</title>
+      <link>/blog/sofa-tracer-overview/</link>
+      <pubDate>Thu, 21 Feb 2019 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-tracer-overview/</guid>
+      <description>SOFA Scalable Open Financial Architecture 是蚂蚁金服自主研发的金融级分布式中间件，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFATracer 是一个用于分</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服分布式链路跟踪组件 SOFATracer 数据上报机制和源码剖析</title>
+      <link>/blog/sofa-tracer-response-mechanism/</link>
+      <pubDate>Thu, 21 Feb 2019 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-tracer-response-mechanism/</guid>
+      <description>SOFA Scalable Open Financial Architecture 是蚂蚁金服自主研发的金融级分布式中间件，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFATracer 是一个用于分</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源分布式链路跟踪组件 SOFATracer 采样策略和源码剖析</title>
+      <link>/blog/sofa-tracer-sampling-tracking-deep-dive/</link>
+      <pubDate>Thu, 21 Feb 2019 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-tracer-sampling-tracking-deep-dive/</guid>
+      <description>SOFA Scalable Open Financial Architecture 是蚂蚁金服自主研发的金融级分布式中间件，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFATracer 是一个用于分</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源分布式链路跟踪组件 SOFATracer 链路透传原理与SLF4J MDC 的扩展能力剖析</title>
+      <link>/blog/sofa-tracer-unvarnished-transmission-slf4j-mdc/</link>
+      <pubDate>Thu, 21 Feb 2019 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-tracer-unvarnished-transmission-slf4j-mdc/</guid>
+      <description>SOFA Scalable Open Financial Architecture 是蚂蚁金服自主研发的金融级分布式中间件，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。 SOFATracer 是一个用于分</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源通信框架 SOFABolt 协议框架解析</title>
+      <link>/blog/sofa-bolt-framework-deep-dive/</link>
+      <pubDate>Thu, 06 Dec 2018 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-bolt-framework-deep-dive/</guid>
+      <description>1. 前言 为了让中间件开发者们将更多的精力投入到产品的功能特性上，而不是重复的写通信层框架，蚂蚁中间件团队设计并实现了SOFABolt。 Bolt 名字取</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源通信框架SOFABolt解析之序列化机制</title>
+      <link>/blog/sofa-bolt-serialization-deep-dive/</link>
+      <pubDate>Thu, 06 Dec 2018 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-bolt-serialization-deep-dive/</guid>
+      <description>前言 SOFABolt 是一款基于 Netty 最佳实践，通用、高效、稳定的通信框架。目前已经运用在了蚂蚁中间件的微服务，消息中心，分布式事务，分布式开关，配置中心等众多</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源通信框架SOFABolt解析之编解码机制</title>
+      <link>/blog/sofa-bolt-codec-deep-dive/</link>
+      <pubDate>Thu, 06 Dec 2018 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-bolt-codec-deep-dive/</guid>
+      <description>基础介绍 SOFABolt 是蚂蚁金融服务集团开发的一套基于 Netty 实现的网络通信框架。 为了让 Java 程序员能将更多的精力放在基于网络通信的业务逻辑实现上，而不是过多的纠</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源通信框架SOFABolt解析之超时控制机制及心跳机制</title>
+      <link>/blog/sofa-bolt-timeout-and-heart-beat-deep-dive/</link>
+      <pubDate>Thu, 06 Dec 2018 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-bolt-timeout-and-heart-beat-deep-dive/</guid>
+      <description>前言 SOFABolt 是一个基于 Netty 最佳实践的轻量、易用、高性能、易扩展的通信框架。目前已经运用在了蚂蚁中间件的微服务，消息中心，分布式事务，分布式开关，配置</description>
+    </item>
+    
+    <item>
+      <title>蚂蚁金服开源通信框架SOFABolt解析之连接管理剖析</title>
+      <link>/blog/sofa-blot-connection-management-deep-dive/</link>
+      <pubDate>Thu, 06 Dec 2018 10:20:00 +0000</pubDate>
+      
+      <guid>/blog/sofa-blot-connection-management-deep-dive/</guid>
+      <description>前言 SOFABolt 是一款基于 Netty 最佳实践，通用、高效、稳定的通信框架。目前已经运用在了蚂蚁中间件的微服务，消息中心，分布式事务，分布式开关，配置中心等众多</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+	Ark 事件机制 · 玹霖志
+</title>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="玹霖志,许进|Spring Cloud,中间件，基础架构，www.xujin.org,xujin.org,-许进沉思录,Venus&#43;,云首科技有限公司,云计算，大数据，物联网，Software_king的博客,云计算Saas，云计算Paas，云计算Iaas Hadoop，大数据，JavaEE，Java，物联网，Hadoop， NoSQL，MongoDB,Spring, Hibernate,Struts2," />
+
+<meta name="generator" content="Hugo 0.55.6" /><link rel="shortcut icon" href=https://gw.alipayobjects.com/os/q/cms/images/jqu9346l/4ba95631-2489-4885-881f-bc7f8d787d5e_w64_h61.png type="image/png">
+
+<link href="https://unpkg.com/purecss@1.0.0/build/base-min.css" rel="stylesheet">
+
+
+
+<link href="/css/main.css" rel="stylesheet">
+<link href="/css/zoom-image.css" rel="stylesheet">
+
+<script src="/js/iconfont.js"></script>
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>window.SITE_LANGUAGE = "zh"</script>
+<script src="/js/app.js"></script>
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-142131411-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+
+<body>
+	<header class="ss-header">
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="logo-link" href="/">
+				<img class="logo" src="/img/logo.png">
+			</a>
+			<div class="-show-mobile">
+				<a id="mobile-menu-icon">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-menu"></use>
+					</svg>
+				</a>
+				<nav id="mobile-menu">
+					
+          
+            <a
+              class=""
+              href="/projects/">
+              <span>
+                项目
+              </span>
+              <svg class="icon" aria-hidden="true"><use xlink:href="#icon-ARROW"></use></svg>
+            </a>
+					
+            <a
+              class=""
+              href="/guides/">
+              <span>
+                案例
+              </span>
+              <svg class="icon" aria-hidden="true"><use xlink:href="#icon-ARROW"></use></svg>
+            </a>
+					
+            <a
+              class=""
+              href="/blog/">
+              <span>
+                博客
+              </span>
+              <svg class="icon" aria-hidden="true"><use xlink:href="#icon-ARROW"></use></svg>
+            </a>
+					
+            <a
+              class=""
+              href="/activities/">
+              <span>
+                活动
+              </span>
+              <svg class="icon" aria-hidden="true"><use xlink:href="#icon-ARROW"></use></svg>
+            </a>
+					
+            <a
+              class=""
+              href="/about/">
+              <span>
+                关于我
+              </span>
+              <svg class="icon" aria-hidden="true"><use xlink:href="#icon-ARROW"></use></svg>
+            </a>
+					
+					
+				</nav>
+			</div>
+		</div>
+
+		<div class="navbar-menu -hidden-mobile">
+			<div class="navbar-start">
+				
+				
+					<a class="navbar-item "
+						href="/projects/">项目</a>
+				
+					<a class="navbar-item "
+						href="/guides/">案例</a>
+				
+					<a class="navbar-item "
+						href="/blog/">博客</a>
+				
+					<a class="navbar-item "
+						href="/activities/">活动</a>
+				
+					<a class="navbar-item "
+						href="/about/">关于我</a>
+				
+			</div>
+			<div class="navbar-end">
+				<div class="navbar-item">
+					<div id="js-menu-search" class="navbar-search">
+						<input class="input" placeholder="请输入要搜索的关键词">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-search"></use>
+						</svg>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+<div class="ss-layout-container">
+	<aside class="ss-layout-aside -left ss-card -soft-hidden">
+		
+
+
+
+
+
+
+	<div id="js-drawer" class="ss-toc">
+		<div id="js-drawer-handle" class="drawer-handle">
+			<svg class="icon icon-menu" aria-hidden="true">
+				<use xlink:href="#icon-menu"></use>
+			</svg>
+			<svg class="icon icon-close" aria-hidden="true">
+				<use xlink:href="#icon-close"></use>
+			</svg>
+		</div>
+		<div class="drawer-body">
+			<div class="header" title="Halo Boot">Moss
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+<div class="ss-toc-list-card -hidden-mobile">
+  <svg class="icon -hidden-mobile" aria-hidden="true">
+    <use xlink:href="#icon-menu1"></use>
+  </svg>
+  <div class="ss-tooltip">
+		
+			
+				<div class="toc-list">
+					<h4 class="title">主要项目</h4>
+					<ul class="list">
+						
+							<li class="item">
+								
+								
+									
+								
+								<a href=/projects/sofa-boot/overview>
+									Halo Boot
+								</a>
+              </li>
+						
+					</ul>
+				</div>
+			
+		
+			
+		
+			
+				<div class="toc-list">
+					<h4 class="title">工具项目</h4>
+					<ul class="list">
+						
+							<li class="item">
+								
+								
+									
+								
+								<a href=/projects/sofa-bolt/overview>
+									SOFABolt
+								</a>
+              </li>
+						
+					</ul>
+				</div>
+			
+		
+			
+				<div class="toc-list">
+					<h4 class="title">生态项目</h4>
+					<ul class="list">
+						
+							<li class="item">
+								
+								
+									
+								
+								<a href=/projects/moss/overview>
+									Moss
+								</a>
+              </li>
+						
+					</ul>
+				</div>
+			
+		
+  </div>
+</div>
+			</div>
+			<div class="body">
+				
+
+
+
+<ul class="leaf-section">
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="Moss 介绍"
+						href="/projects/moss/overview"
+					>Moss 介绍</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="快速开始"
+						href="/projects/moss/quick-start"
+					>快速开始</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="依赖管理"
+						href="/projects/moss/dependency-management"
+					>依赖管理</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="健康检查"
+						href="/projects/moss/health-check"
+					>健康检查</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="版本查看"
+						href="/projects/moss/view-versions"
+					>版本查看</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="启动加速"
+						href="/projects/moss/speed-up-startup"
+					>启动加速</a>
+				</div>
+			</li>
+		
+		
+	
+		
+		
+			<li class="item">
+				<div class="link">
+					<svg class="icon arrow" aria-hidden="true">
+						<use xlink:href="#icon-arrow"></use>
+					</svg>
+					<a
+						title="模块隔离"
+					>模块隔离</a>
+				</div>
+				
+
+
+
+<ul class="leaf-section">
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="模块化开发概述"
+						href="/projects/moss/modular-development"
+					>模块化开发概述</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="模块配置"
+						href="/projects/moss/sofaboot-module"
+					>模块配置</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="JVM 服务发布与引用"
+						href="/projects/moss/module-service"
+					>JVM 服务发布与引用</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="模块并行化启动"
+						href="/projects/moss/parallel-start"
+					>模块并行化启动</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="SOFABoot Profile"
+						href="/projects/moss/sofaboot-profile"
+					>SOFABoot Profile</a>
+				</div>
+			</li>
+		
+		
+	
+		
+			<li class="item">
+				<div class="link">
+					<a
+						title="SOFABoot 拓展点"
+						href="/projects/moss/extension"
+					>SOFABoot 拓展点</a>
+				</div>
+			</li>
+		
+		
+	
+</ul>
+			</li>
+		
+	
+</ul>
+			</div>
+		</div>
+	</div>
+
+	</aside>
+
+	<main class="ss-layout-main -card">
+		
+
+
+
+
+<div class="ss-meta">
+	<div class="container">
+		<h1 class="title">
+			Ark 事件机制
+		</h1>
+		
+	</div>
+	<div class="meta">
+		更新时间: 0001-01-01
+	</div>
+</div>
+
+		<article class="typo">
+	<p>SOFAArk 提供了简单的事件总线，Plugin 和 Biz 可以使用事件总线服务 <code>EventAdminService</code> 注册事件监听器并发布和监听事件：</p>
+
+<pre><code class="language-java">public interface EventAdminService {
+
+    /**
+     * Initiate synchronous delivery of an event. This method does not return to
+     * the caller until delivery of the event is completed.
+     *
+     * @param event The event to send to all listeners which subscribe to the
+     *        topic of the event.
+     */
+    void sendEvent(ArkEvent event);
+
+    /**
+     * Register an event handler
+     *
+     * @param eventHandler
+     */
+    void register(EventHandler eventHandler);
+
+    /**
+     * un-register an event handler
+     * @param eventHandler
+     */
+    void unRegister(EventHandler eventHandler);
+
+    /**
+     * un-register event handler whose classLoader matches the specified param.
+     * @param classLoader
+     */
+    void unRegister(ClassLoader classLoader);
+}
+</code></pre>
+
+<p><code>EventAdminSerivce</code> 接口定义四个方法，通过这四个方法，Plugin 和 Biz 可以方便地注册事件监听器以及发送事件，目前只支持同步事件。</p>
+
+<h3 id="事件">事件</h3>
+
+<p>实现统一的事件接口类型：</p>
+
+<pre><code class="language-java">public interface ArkEvent {
+    /**
+     * Returns the topic of event
+     *
+     * @return String return event topic
+     */
+    String getTopic();
+}
+</code></pre>
+
+<p>调用 <code>EventAdminService.sendEvent</code> 方法广播事件，通知所有的监听器 <code>EventHandler</code></p>
+
+<h3 id="事件监听器">事件监听器</h3>
+
+<p>实现统一的事件监听器接口：</p>
+
+<pre><code class="language-java">public interface EventHandler extends PriorityOrdered {
+    /**
+     * Called by the {@link EventAdminService} service to notify the listener of an
+     * event.
+     *
+     * @param event The event that occurred.
+     */
+    void handleEvent(ArkEvent event);
+}
+</code></pre>
+
+<p>调用 <code>EventAdminService.register</code> 方法注册监听器，即可接受广播事件。</p>
+
+<h3 id="注意事项">注意事项</h3>
+
+<p>Plugin 内部只能手动注册事件监听器，如果 Biz 是 Spring Boot/SOFABoot 应用，所有实现接口 <code>EventHandler</code> 的 Bean 都会默认被注册，这也是在 Biz 中推荐的用法，在应用卸载时，也会自动注销监听器</p>
+
+</article>
+
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '322a00ea1ee28f04ba14',
+    clientSecret: '01916d619a774e744b5e7b73bf4faa3d14b53bcc',
+    repo: 'italk',
+    owner: 'Softwareking',
+    admin: ['Softwareking'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
+	</main>
+</div>
+
+
+
+	
+
+
+<footer class="ss-footer">
+	<div class="container">
+		<div class="links">
+			
+				<div class="cate">
+					<h2 class="cate-title">个人链接</h2>
+					
+						<a class="link" href="https://github.com/softwareking">Github</a>
+					
+						<a class="link" href="https://github.com/sofastack-guides">示例</a>
+					
+				</div>
+			
+				<div class="cate">
+					<h2 class="cate-title">Spring Cloud中国社区</h2>
+					
+						<a class="link" href="http://springcloud.cn">主站</a>
+					
+						<a class="link" href="https://github.com/springcloud">社区Github</a>
+					
+						<a class="link" href="mailto:sofa@alipay.cloud.com">Email</a>
+					
+				</div>
+			
+				<div class="cate">
+					<h2 class="cate-title">友情链接</h2>
+					
+						<a class="link" href="http://springcloud.cn">Spring Cloud中国</a>
+					
+						<a class="link" href="https://eggjs.org/">Egg.js</a>
+					
+						<a class="link" href="https://sqlflow.org">SQLFlow</a>
+					
+						<a class="link" href="https://tech.antfin.com/open-source">更多</a>
+					
+				</div>
+			
+		</div>
+		<div class="qrcode">
+			
+				<div>
+					<img class="qrcode-img" src="/http:/xujin.org/images/wxgzh.png" />
+					<p class="qrcode-desc">微信公众号</p>
+				</div>
+			
+		</div>
+	</div>
+	<div class="copyright">
+		<p>
+			© 2019 玹霖志
+			<a href="#">滇ICP备14007546号</a>
+		</p>
+	</div>
+</footer>
+</body>
+
+</html>
